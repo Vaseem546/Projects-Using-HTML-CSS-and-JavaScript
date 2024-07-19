@@ -1,0 +1,561 @@
+
+#logo:hover{
+    border:2px solid white;
+}
+.box{
+    height:6%;
+    padding:5px;
+    width:1255px;
+    border:border-box;
+    margin-top:-8px;
+    margin-left: -8px;
+    margin-right: -9px;
+    background-color:#0f1111;
+    font-size: 1.6vw;
+    font-family:'Arial';
+    display:inline;
+    justify-content:center;
+    align-content: center;
+    position:fixed;
+}
+a{
+    margin-right:8%;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+#logo{
+    font-size:2vw;
+    font-family:'sans seirf';
+    text-decoration: underline;
+    color:#ffd6ff;
+    margin-left: 2%;
+
+}
+label{
+    border-radius: 5%;
+
+}
+.bb1{
+    font-style:normal;
+    font-family: 'Arial';
+    background-color: #ffd6ff;
+    color: black;
+}
+.panel{
+    height:50px;
+    background-color: #222f3d;
+    width:1265px;
+    margin-top: 18px;
+    margin-left: -8px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.panel-all{
+    margin-left: 25px;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 15px;
+    
+}
+.panel-ops{
+    width:70%;
+    font-size:1.2vw;
+    margin-left: -250px;
+
+}
+.panel-deals{
+    font-size: 2vw;
+    font-weight:700;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 15px;
+}
+.ad{
+    height:450px;
+    width:1265px;
+    margin-top:1px;
+    margin-left: -8px;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/June/Fathers_Day/D139279928_IN_WLA_BAU_FathersDay_Hero_PC_Hero_3000x1200._CB555670465_.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 0px;
+}
+
+.multipleAd{
+    height:300px;
+    width:1255px;
+    border:1px solid whitesmoke;
+    font-size:2vw;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: -4px;
+    display:flex;
+    align-content:center;
+}
+.ad1{
+    height:230px;
+    width:230px;
+    margin-top:10px;
+    margin-left: 10px;
+    background: url('https://m.media-amazon.com/images/I/719EPeD60aL._AC_SY400_.jpg');
+    background-size:cover
+}
+.ad2{
+    height:230px;
+    width:230px;
+    margin-top: 10px;
+    margin:5px;
+    margin-left: 10px;
+    background: url('https://m.media-amazon.com/images/I/61USDdGhKbL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.ad3{
+    height:230px;
+    width:290px;
+    margin-top:10px;
+    margin:5px;
+    margin-left:10px;
+    background: url('https://m.media-amazon.com/images/I/71GussYaifL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.ad4{
+    height:250px;
+    width:230px;
+    margin-top: 10px;
+    margin:5px;
+    margin-left:10px;
+    background:url('https://m.media-amazon.com/images/I/61gKkYQn6lL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.ad5{
+    height:270px;
+    width:230px;
+    margin-top:10px;
+    margin:5px;
+    margin-left: 5px;
+    background: url('https://m.media-amazon.com/images/I/61+TVrElkSL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.p{
+    text-decoration: none;
+    font-family:'Arial';
+    font-size: 25px;
+    font-weight:bolder;
+    margin-left: 10px;
+    display:flex;
+    justify-content: left;
+}
+.electronics{
+    height:300px;
+    width:1255px;
+    margin-left: -4px;
+    border:1px solid whitesmoke;
+    font-size:2vw;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    display:flex;
+    align-content:center;
+}
+.e1{
+    height:230px;
+    width:230px;
+    margin-top:10px;
+    margin-left: 10px;
+    background: url('https://m.media-amazon.com/images/I/41FaAKvTXHL._AC_SY400_.jpg');
+    background-size:cover
+}
+.e2{
+    height:230px;
+    width:230px;
+    margin-top: 10px;
+    margin:5px;
+    margin-left: 10px;
+    background: url('https://m.media-amazon.com/images/I/71zbWSRMaYL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.e3{
+    height:230px;
+    width:290px;
+    margin-top:10px;
+    margin:5px;
+    margin-left:10px;
+    background: url('https://m.media-amazon.com/images/I/510RzupF+7L._AC_SY400_.jpg');
+    background-size: cover;
+}
+.e4{
+    height:250px;
+    width:230px;
+    margin-top: 10px;
+    margin:5px;
+    margin-left:10px;
+    background:url('https://m.media-amazon.com/images/I/81C9NCP0xUL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.e5{
+    height:270px;
+    width:230px;
+    margin-top:10px;
+    margin:5px;
+    margin-left: 5px;
+    background: url('https://m.media-amazon.com/images/I/51e-4xvUKYL._AC_SY400_.jpg');
+    background-size: cover;
+}
+
+#rectangle{
+    height:500px;
+    width:1255px;
+    background-color: #abc4ed;
+    display:flex;
+    align-items: center;
+}
+#r1{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+
+}
+#r2{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    
+}
+#r3{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+#r4{
+    height:450px;
+    width:280px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right:15px;
+}
+
+#rr1{
+    height:40px;
+    width: 200px;
+    font-family: 'Arial';
+    padding-left: 10px;
+    margin:5px 5px 10px 35px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#rb1{
+    height:33%;
+    width:80%;
+    background:url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg');
+    background-size:cover;
+    margin-left:25px;
+    margin-bottom: 25px;
+}
+#rb2{
+    height:33%;
+    width:80%;
+    background:url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg');
+    background-size:cover;
+    margin-left:25px;
+    
+
+}
+#rr2{
+    height:25px;
+    width:250;
+    margin-left: 17px;
+    margin-top:10px;
+    font-size: 1.5vw;
+    font-family: 'Arial';
+    font-weight:bolder;
+    text-align: center;
+}
+#rrb1{
+    height:300px;
+    width:260x;
+    background: url('https://rukminim2.flixcart.com/image/850/1000/xif0q/vase/s/d/0/4-antic-08-regina-8-5-original-imagrzt3z54tzefg.jpeg?q=90&crop=false');
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 10px;;
+    margin-bottom: 25px;
+}
+#rr3{
+    height:25px;
+    width:250px;
+    margin-left: 17px;
+    margin-top:10px;
+    font-size: 1.5vw;
+    font-family: 'Arial';
+    font-weight:bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#r3b1{
+    height: 100px;
+    width: 180px;
+    background: url('https://m.media-amazon.com/images/I/41jc30L1jyL._AC_SY290_.jpg');
+    background-size:cover;
+    margin-top:18px;
+    margin-left: 65px;
+
+}
+#r3b2{
+    height: 100px;
+    width: 180px;
+    background: url('https://m.media-amazon.com/images/I/71-z6ji5R+L._AC_SY290_.jpg');
+    background-size:cover;
+    margin-top:13px;
+    margin-left: 65px;
+
+}
+#r3b3{
+    height: 100px;
+    width: 180px;
+    background: url('https://m.media-amazon.com/images/I/61fgJs4zIqL._AC_SY290_.jpg');
+    background-size:cover;
+    margin-top:13px;
+    margin-left: 65px;
+
+}
+#rr4{
+    height:25px;
+    width:250px;
+    margin-left:80px;
+    margin-top:10px;
+    font-size: 1.5vw;
+    font-family: 'Arial';
+    font-weight:bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#r41{
+    height:335px;
+    width:400x;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/wk_23/CC_Card_758X608._SY608_CB556740755_.jpg');
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-right: 25px;
+}
+#rectangle2{
+    height:500px;
+    width:1255px;
+    background-color: #abc4ed;
+    display:flex;
+    align-items: center;
+}
+#r5{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+
+}
+#r6{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    
+}
+#r7{
+    height:450px;
+    width:300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+#r8{
+    height:450px;
+    width:280px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right:15px;
+}
+#rr5{
+    height:40px;
+    width: 200px;
+    font-family: 'Arial';
+    padding-left: 10px;
+    margin-left:30px;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#rb5{
+    height:300px;
+    width:260x;
+    background: url('https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*');
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    margin-bottom: 20px;
+}
+#rr6{
+    height:40px;
+    width: 200px;
+    font-family: 'Arial';
+    padding-left: 10px;
+    margin:5px 5px 10px 35px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#rb6{
+    height:300px;
+    width:260x;
+    background: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg');
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 10px;;
+    margin-bottom: 25px;
+}
+#rr7{
+    height:40px;
+    width: 200px;
+    font-family: 'Arial';
+    padding-left: 10px;
+    margin:5px 5px 10px 35px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#rb7{
+    height:300px;
+    width:260x;
+    background: url('https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_2X_Furnitrure_v2._SY608_CB577544739_.jpg');
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 10px;;
+    margin-bottom: 25px;
+}
+#rr8{
+    height:40px;
+    width: 200px;
+    font-family: 'Arial';
+    padding-left: 10px;
+    margin:5px 5px 10px 35px;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    text-align: center;
+}
+#rb8{
+    height:300px;
+    width:260x;
+    background: url('https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_758x608_2X_en_US._SY608_CB613273467_.jpg');
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-right: 10px;;
+    margin-bottom: 25px;
+}
+.aa{
+    color:darkblue;
+    text-decoration: underline;
+    margin-left: 35px;
+}
+.back{
+    background-color: #ffd6ff;
+    height: 60px;
+    width:1255px;
+    color: #03045e;
+    display:flex;
+}
+.back1{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+h5{
+    margin-left:570px;
+    margin-top: 5px;
+    font-family: 'Arial';
+    color:black;
+}
+h5:hover{
+    color:#03045e;
+    text-decoration: underline;
+}
+.end{
+    height:400px;
+    width:1255px;
+    background-color: #222F3E;
+    margin-top:-16px;
+    display:flex;
+}
+.get{
+    height: 150px;
+    width:280px;
+    color:white;
+    font-size: 13px;
+    margin-top: 40px;
+    font-family: 'Arial';
+    margin-left: 140px;
+}
+.links{
+    height: 150px;
+    width:280px;
+    color:white;
+    font-size: 1vw;
+    margin-top: 40px;
+    font-family: 'Arial';
+}
+.products{
+    height: 150px;
+    width:280px;
+    color:white;
+    font-size: 1vw;
+    margin-top: 40px;
+    font-family: 'Arial';
+}
+.help{
+    height: 150px;
+    width:280px;
+    color:white;
+    font-size: 1vw;
+    margin-top: 40px;
+    font-family: 'Arial';
+}
+.end2{
+    height:100px;
+    width:1255px;
+    background-color: #0F1111;
+    margin-top:1px;
+    display:flex;
+    justify-content: center;
+}
+.logo2{
+    font-size:2vw;
+    font-family:'sans seirf';
+    text-decoration: underline;
+    color:#ffd6ff;
+    margin-left: 8px;
+    margin-top: 30px;  
+}
