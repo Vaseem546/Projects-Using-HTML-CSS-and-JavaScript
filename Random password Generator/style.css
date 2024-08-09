@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #002339;
+    font-family: sans-serif;
+}
+h1{
+    color:#ffff;
+    font-size: 40px;
+    border-bottom: 8px solid #019f55;
+    display: inline-block;
+}
+h1 span{
+    color:#019f55;
+    font-size: 50px;
+ 
+}
+.all{
+   margin-top: 160px;
+   margin-left: 300px;
+}
+input{
+    width:550px;
+    height:40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: White;
+    border-radius: 4px;
+    padding: 5px 3px;
+    border: 0;
+    outline: 0;
+}
+input::placeholder{
+    font-family: sans-serif;
+}
+.btn2{
+    width:200px;
+    background-color: #019f55;
+    color:#ffff;
+    height:40px;
+    border:0;
+    outline:0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btn1{
+    background-color:#ffff;
+    background: transparent;
+    height:50px;
+    font-family: sans-serif;
+    width:60px;
+    border:0;
+    outline:0;
+    padding: 5px 3px;
+    margin: 0px 0px 0px -60px;
+
+}
+.btn2 i{
+    color: #ffff;
+    background-color: #019f55;
+    font-size: 20px;
+}
+.fa-regular{
+    font-size: 25px;
+    color:#019f55;
+    top:-50px;
+    background: transparent;
+}
+.btn2:hover{
+    cursor:pointer;
+}
+.btn1:hover{
+    cursor:pointer;
+}
+.btn1:active{
+    transform:translateY(4px);
+}
+.btn2:active{
+    transform:translateY(4px);
+}
+.para{
+    margin-top:164px;
+    opacity: 0.3;
+}
+@media only screen and (max-width: 600px) {
+    .all{
+        margin-left: 50px;
+    }
+    input{
+        width:300px;
+    }
+    .para{
+        margin-top:300px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .all{
+        margin-left: 40px;
+    }
+    input{
+        width:300px;
+    }
+    .para{
+        margin-top:300px;
+    }
+  }
+  
